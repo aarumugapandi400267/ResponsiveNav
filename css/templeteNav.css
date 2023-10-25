@@ -1,0 +1,83 @@
+#container{
+    display:flex;
+    background-image: linear-gradient(to right,hwb(253 2% 0%),rgb(225, 2, 255));
+    border-radius: 20px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 150ms;
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    color: white;
+    position: static;
+    /* top: 0em; */
+}
+
+li{
+    display: inline;
+    padding-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-left: 15px;
+}
+#a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+
+}
+#a:hover{
+    box-shadow:5px 5px 5px 5px palevioletred;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    border: none;
+    background-image: linear-gradient(to right,rgb(225, 2, 255),hwb(253 2% 0%));
+    border-radius: 20px;
+    list-style-type: none;
+
+}
+
+#modi-quotes{
+    color: gray;
+    font-size: 15px;
+}
+#mail{
+    text-decoration: none;
+    color: white;
+    
+}
+#fa{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+footer{
+    padding-left: 10px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    background-image: linear-gradient(to right,hwb(253 2% 0%),rgb(225, 2, 255));
+}
+#footernav{
+    margin-left: 50px;
+}
+#readmore{
+
+    width: 100px;
+    height: 30px;
+    border:none;
+
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-image: linear-gradient(rgb(255, 2, 234),hwb(324 2% 0%));
+    border-radius :15px;
+}
+@media screen and (max-width) {
+    
+}
